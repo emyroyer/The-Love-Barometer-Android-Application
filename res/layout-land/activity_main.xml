@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgdland" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.84"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/Question_Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:textSize="20sp"
+            android:text="@string/Question_Start"
+            />
+        
+             <ImageView
+            android:id="@+id/ivHeart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/heart" />
+        
+        <TextView 
+            android:id="@+id/consigne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:textSize="15sp"
+            android:text="@string/Consigne"
+            />
+        
+        <Button
+            android:id="@+id/Plus_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Plus_button"
+            android:textSize="15sp" />
+        
+        <Button
+            android:id="@+id/Moins_button"
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Moins_button"
+            android:textSize="15sp" />
+        
+        <TextView
+            android:id="@+id/Results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/Results"
+            />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:text="@string/signification"
+            android:textSize="15sp" />
+        
+        <Button
+            android:id="@+id/Interpret_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:textSize="15sp"
+            android:text="@string/Interpret_button"
+            />
+        
+    </LinearLayout>
+
+
+</FrameLayout>

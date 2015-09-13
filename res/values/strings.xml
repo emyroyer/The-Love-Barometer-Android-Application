@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoveBarometer</string>
+    <string name="action_settings">Settings</string>
+    <string name="Question_Start">How much do I love you?</string>
+    <string name="Consigne">Choose a number between -5 and +5</string>
+    <string name="Rep10m">Rep10m</string>
+    <string name="Rep9m">Rep9m</string>
+    <string name="Rep8m">Rep8m</string>
+    <string name="Rep7m">Rep7m</string>
+    <string name="Rep6m">Rep6m</string>
+    <string name="Rep5m">Strike! Careful, we are about to brake up!</string>
+    <string name="Rep4m">How can you do that to me! Maybe your not the one I thought!</string>
+    <string name="Rep3m">Grr… but why did you do that? Do you still love me?</string>
+    <string name="Rep2m">Sometimes, you really irritate me, but I still love you!</string>
+    <string name="Rep1m">You can be thankful to your angel face! You are too cute to be angry at!</string>
+    <string name="Rep0">I like you &#8230; a lot!</string>
+    <string name="Rep1">All this little things that brighten up my days and my life! Thanks for your little attentions my sweetie!</string>
+    <string name="Rep2">You did great! If this was our first date, I will definitely go for a second one with you! I like you&#8230; a lot!</string>
+    <string name="Rep3">For the most wonderful person in my life! You make me happy!</string>
+    <string name="Rep4">You are definitely the one for me “Mon Amour”! When are we moving in together?</string>
+    <string name="Rep5">Would you marry me?! :-D Just kidding ! I love you to infinity and beyond!</string>
+    <string name="Rep6">Rep6</string>
+    <string name="Rep7">Rep7</string>
+    <string name="Rep8">Rep8</string>
+    <string name="Rep9">Rep9</string>
+    <string name="Rep10">Rep10</string>
+    <string name="Plus_button">Add one</string>
+    <string name="Moins_button">Remove one</string>
+    <string name="Results">Your total is 0</string>
+    <string name="signification">When satisfy with the score click here</string>
+    <string name="Interpret_button">Meaning</string>
+    <string name="Advertise">---------------------------------------------The Love Barometer App</string>
+    <string name="Ok_button">OK</string>
+    <string name="Screen_button">Click here to take a screenshot, then send it by MMS to your loved one!</string>
+    <string name="admob_id"></string>
+    <string name="link">To send the screenshot to your Lover, you need the File Manager application: </string>
+    <string name="method">In File Manager, go to the emulated folder, click on 0, then on the Download folder. Click 3 seconds on your file screenshot.png and choose the option Send</string>
+    <string name="title_activity_link">Link</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="close">Want to change the Barometer value?</string>
+    <string name="fileManager">File Manager App</string>
+    <string name="imageOfAHeart">ImageOfAHeart</string>
+
+</resources>

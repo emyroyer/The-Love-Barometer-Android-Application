@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgd"
+    android:orientation="vertical" >
+    
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout01" >
+    
+            <TextView 
+            android:id="@+id/Question_Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="@string/Question_Start"
+            />
+    
+        <ImageView
+            android:id="@+id/RepHeart"
+            android:contentDescription="@string/imageOfAHeart"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            />
+    
+    <TextView
+        android:id="@+id/Rep"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:text="@string/Rep2"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+   
+        <TextView 
+            android:id="@+id/Advertise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/Advertise"
+            />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adLayout"
+    android:orientation="vertical" >
+
+<Button
+    android:id="@+id/Screen_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Screen_button"
+    android:textSize="12sp" />
+
+   <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-7153081403932123/3746922699"
+        />
+     
+       
+</LinearLayout>
+
+</LinearLayout>
